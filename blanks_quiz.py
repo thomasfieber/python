@@ -6,13 +6,27 @@ drawn from the official Python documentation. For each level, the player will
 be presented with a short paragraph containing several "hidden" words. The user
 will have three tries to guess the correct word to replace the hidden word.'''
 
-easy_sample = "__1__ is an __2__, interactive, object-oriented __3__ language. It incorporates modules, exceptions, __4__ typing, very high level dynamic data types, and classes. __1__ combines remarkable power with very clear syntax."
+easy_sample = "__1__ is an __2__, interactive, object-oriented __3__ language.\
+It incorporates modules, exceptions, __4__ typing, very high level dynamic data\
+types, and classes. __1__ combines remarkable power with very clear syntax."
 easy_key = {1: 'python', 2: 'interpreted', 3: 'programming', 4: 'dynamic'}
 
-med_sample = "Many other __1__ of Python make it a good first language. Like Java, Python has a large standard __2__ so that students can be assigned programming projects very early in the course that do something. Assignments aren’t restricted to the standard four-function calculator and check balancing programs. By using the standard __2__, students can gain the satisfaction of working on realistic applications as they learn the __3__ of programming. Using the standard __2__ also teaches students about code reuse. Third-party __4__ such as PyGame are also helpful in __5__ the students’ reach."
+med_sample = "Many other __1__ of Python make it a good first language. Like\
+Java, Python has a large standard __2__ so that students can be assigned\
+programming projects very early in the course that do something. Assignments\
+aren’t restricted to the standard four-function calculator and check balancing\
+programs. By using the standard __2__, students can gain the satisfaction of\
+working on realistic applications as they learn the __3__ of programming. Using\
+the standard __2__ also teaches students about code reuse. Third-party __4__\
+such as PyGame are also helpful in __5__ the students’ reach."
 med_key = {1: 'aspects', 2: 'library', 3: 'fundamentals', 4: 'modules', 5: 'extending'}
 
-hard_sample = "A __1__ can be based on one or more other __1__es, called its base __1__(es). It then __2__s the __3__ and __4__s of its base __1__es. This allows an __5__ model to be successively refined by __2__ance. You might have a generic Mailbox __1__ that provides basic __6__ __4__s for a mailbox, and sub__1__es such as MboxMailbox, MaildirMailbox, OutlookMailbox that handle various specific mailbox formats."
+hard_sample = "A __1__ can be based on one or more other __1__es, called its\
+base __1__(es). It then __2__s the __3__ and __4__s of its base __1__es. This\
+allows an __5__ model to be successively refined by __2__ance. You might have a\
+generic Mailbox __1__ that provides basic __6__ __4__s for a mailbox, and\
+sub__1__es such as MboxMailbox, MaildirMailbox, OutlookMailbox that handle\
+various specific mailbox formats."
 hard_key = {1: 'class', 2: 'inherit', 3: 'attributes', 4: 'methods', 5: 'object', 6: 'accessor'}
 
 def switch(str, dict):
