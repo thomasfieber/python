@@ -109,7 +109,7 @@ def play_game_helper():
     if level in ('easy', 'medium', 'hard'):
         return get_answers(sample_bank[level], len(key_bank[level]), key_bank[level])
     else:
-        print "\nSorry, that's not a level. Try again\n"
+        print "\nSorry, that's not a level. Try again.\n"
 
 def play_game():
     '''
