@@ -61,36 +61,3 @@ def sample_variance(alist):
     s_variance = sum_of_array(squared_deviations) / n
     return s_variance
 
-sample = [24,
- 13,
- 26,
- 22,
- 21,
- 13,
- 27,
- 20,
- 26,
- 24,
- 28,
- 19,
- 10,
- 10,
- 17,
- 30,
- 21,
- 14,
- 18,
- 16,
- 16,
- 18,
- 15,
- 23,
- 22,
- 25,
- 18,
- 20,
- 26,
- 18]
-
-print(sample_std_deviation(sample))
-print(sample_variance(sample))
