@@ -1,4 +1,8 @@
 def bfs(start):
+    '''
+    Takes one argument, a start node, and conducts
+    a bredth-first search.
+    '''
     queue = []
     queue.append(start)
 
