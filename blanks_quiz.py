@@ -128,7 +128,7 @@ def play_game():
             play_count += 1
             play_game_helper()
         else:
-            print "\nOk, Maybe another time then. See you later!\n"
+            print "\nOk, Maybe later...take it easy!\n"
             repeat = False
 
 play_game()
