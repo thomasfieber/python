@@ -4,7 +4,9 @@
 '''This program features three different levels: easy, medium, and hard, all
 drawn from the official Python documentation. For each level, the player will
 be presented with a short paragraph containing several "hidden" words. The user
-will have three tries to guess the correct word to replace the hidden word.'''
+will have three tries to guess the correct word to replace the hidden word.
+I have plans to amend the program to allow the user to chose how many guesses
+they will have before the game boots them out.'''
 
 easy_sample = "__1__ is an __2__, interactive, object-oriented __3__ language.\
 It incorporates modules, exceptions, __4__ typing, very high level dynamic data\
