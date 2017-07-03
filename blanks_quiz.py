@@ -1,6 +1,10 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+'''
+Fill in the blanks quiz from Python documentation
+'''
+
 '''This program features three different levels: easy, medium, and hard, all
 drawn from the official Python documentation. For each level, the player will
 be presented with a short paragraph containing several "hidden" words. The user
