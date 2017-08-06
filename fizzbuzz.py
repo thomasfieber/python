@@ -16,7 +16,7 @@ def fizzbuzz(n):
     replacing "fizz", "buzz", and "fizzbuzz" where appropriate.
     '''
     for i in range(n + 1)[1:]:
-        if i % 15 == 0: # check if divisible by 3 and 5
+        if i % 15 == 0: # if n is divisible by 3 and 5 print 'fizzbuzz'
             print("fizzbuzz")
         elif i % 5 == 0: # check if divisible by 5
             print("buzz")
